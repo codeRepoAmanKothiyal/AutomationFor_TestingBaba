@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testingbaba_test.BrowserWindow_Test">
+        <methods>
+          <include name="clickOnBrowserWindow"/>
+          <include name="getLaunchUrl_TestingBaba"/>
+          <include name="getTitle_TestingBaba"/>
+          <include name="clickOnnewTabFirst"/>
+          <include name="clickOnPractice"/>
+          <include name="clickOnAlertFrameAndWindows"/>
+          <include name="clickOnClosebtn"/>
+          <include name="clickOnNewWindow"/>
+        </methods>
+      </class> <!-- testingbaba_test.BrowserWindow_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
